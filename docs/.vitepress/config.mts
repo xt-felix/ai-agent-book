@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  base: "/ai-agent-book/",
   title: "AI Agent 开发实战",
   description: "从原理到生产的 AI Agent 开发指南",
   lang: "zh-CN",
